@@ -1,0 +1,4 @@
+1. Udacity game assets and starter code (https://github.com/udacity/frontend-nanodegree-arcade-game)
+2. Online image optimizer (http://www.imageoptimizer.net/)
+3. Online HTML minifier (http://kangax.github.io/html-minifier/)
+4. Online CSS minifier (http://cssminifier.com/)

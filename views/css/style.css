@@ -31,11 +31,17 @@ form {
 
 .mover {
   position: fixed;
-  width: 256px;
+  /* width: 256px; */
+  /*Moved from main.js*/
+  width: 73.333px;
+  height: 100px;
   z-index: -1;
 }
 
 .randomPizzaContainer {
+  /*Moved from main.js*/
+  width: 33.33%;
+  height: 325px;
   float: left;
   display: flex;
 }
