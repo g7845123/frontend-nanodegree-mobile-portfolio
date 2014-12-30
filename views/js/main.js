@@ -558,7 +558,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
   // Number rows for visible pizzas
-  var rows = Math.ceil(screen.height/s)+1;
+  var rows = Math.ceil(screen.height/s);
   // movingPizzas1 is the same in every loop, cache it
   var movingPizzasCache = document.querySelector("#movingPizzas1");
   // 200 pizza is much more than visible. There is at most rows*cols pizzas
@@ -566,7 +566,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // for (var i = 0; i < 200; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
-    // Mover pizza image is 73x100, thus a small image is sufficient
+    // Mover pizza image is 77x100, thus a small image is sufficient
     elem.src = "images/pizza-77x100.png";
     // Each mover has the same width and height, move them to CSS
     // elem.style.height = "100px";

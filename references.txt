@@ -1,5 +1,5 @@
 1. Udacity game assets and starter code (https://github.com/udacity/frontend-nanodegree-arcade-game)
 1. GNU Image Manipulation Program (http://www.gimp.org/)
 1. Kraken image optimizer (https://kraken.io/)
-1. Online HTML minifier (http://kangax.github.io/html-minifier/)
-1. Online CSS minifier (http://cssminifier.com/)
+1. Online CSS compressor (http://csscompressor.com/)
+1. Online JavaScirpt compressor (http://www.javascript-compressor.com/)

@@ -1,8 +1,71 @@
 <!DOCTYPE HTML>
 <html>
 <head>  
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <!-- Inline style.css -->
+  <style>
+    /** {
+    outline: 1px solid red !important;
+    }*/
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      background: black;
+    }
+
+    input {
+      background: grey;
+      font-size: 18px;
+    }
+
+    form {
+      display: inline-block;
+    }
+
+    .centered {
+      text-align: center;
+    }
+
+    #pizzaSize {
+      font-weight: 800;
+    }
+
+    .mover {
+      position: fixed;
+      /* width: 256px; */
+      /*Moved from main.js*/
+      width: 73.333px;
+      height: 100px;
+      z-index: -1;
+    }
+
+    .randomPizzaContainer {
+      /*Moved from main.js*/
+      width: 33.33%;
+      height: 325px;
+      float: left;
+      display: flex;
+    }
+
+    .randomPizzaContainer:after {
+      content: "";
+      display: table;
+      clear:both;
+    }
+
+     .container {
+      background-color: rgba(240, 60, 60, 0.8);
+    }
+  </style>
+  <!-- Inline style.css -->
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <!-- Minify bootstrap CSS file -->
+  <!-- <link rel="stylesheet" href="css/bootstrap-grid.css"> -->
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
 </head>
 
 <body>
@@ -138,7 +201,9 @@
     </div>
     <div id="footer" class="col-md-12">Thanks for visiting! &copy; 2014 Udacity</div>
   </div>
-  <script type="text/javascript" src="js/main.js"></script>
+  <!-- Minify JavaScirpt -->
+  <!-- <script type="text/javascript" src="js/main.js"></script> -->
+  <script type="text/javascript" src="js/main.min.js"></script>
 </body>
 
 </html>
