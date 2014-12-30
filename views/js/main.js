@@ -566,7 +566,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // for (var i = 0; i < 200; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
-    elem.src = "images/pizza.png";
+    // Mover pizza image is 73x100, thus a small image is sufficient
+    elem.src = "images/pizza-77x100.png";
     // Each mover has the same width and height, move them to CSS
     // elem.style.height = "100px";
     // elem.style.width = "73.333px";
