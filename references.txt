@@ -3,3 +3,4 @@
 1. Kraken image optimizer (https://kraken.io/)
 1. Online CSS compressor (http://csscompressor.com/)
 1. Online JavaScirpt compressor (http://www.javascript-compressor.com/)
+1. Online HTML minifier (http://kangax.github.io/html-minifier/)
